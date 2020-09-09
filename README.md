@@ -51,7 +51,7 @@ Now go to your browser at address:
 - DELETE `/delete_car​/{car_number}` - delete car number from registered cars
 
 
-[swagger](https://github.com/ClimenteA/test-car-numbers/blob/master/testcarapi.png)
+[swagger](https://raw.githubusercontent.com/ClimenteA/test-car-numbers/blob/master/testcarapi.png)
 
 
 
