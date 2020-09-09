@@ -48,10 +48,8 @@ Now go to your browser at address:
 
 - GET `/registered_cars` - see all registered cars
 - POST `/add_car` - add a car number
-- DELETE `/delete_car​/{car_number}` - delete car number from registered cars
+- DELETE `/delete_car/{car_number}` - delete car number from registered cars
 
-
-[swagger](https://raw.githubusercontent.com/ClimenteA/test-car-numbers/blob/master/testcarapi.png)
-
+<img src="testcarapi.png">
 
 
