@@ -50,6 +50,27 @@ Now go to your browser at address:
 - POST `/add_car` - add a car number
 - DELETE `/delete_car/{car_number}` - delete car number from registered cars
 
+#### CURL/URL
+
+Registered cars
+- `curl -X GET "http://127.0.0.1/registered_cars" -H  "accept: application/json"`
+- `http://127.0.0.1/registered_cars`
+
+
+Add car
+- `curl -X POST "http://127.0.0.1/add_car?number=ASD-321" -H  "accept: application/json" -d ""`
+- `http://127.0.0.1/add_car?number=ASD-321`
+
+
+Delete car
+- `curl -X DELETE "http://127.0.0.1/delete_car/ASD-321" -H  "accept: application/json"`
+- `http://127.0.0.1/delete_car/ASD-321`
+
+
+
+## DEPENDENCIES
+fastapi, uvicorn
+
 <img src="testcarapi.png">
 
 
