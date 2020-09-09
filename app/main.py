@@ -7,7 +7,10 @@ app = FastAPI()
 @app.get("/registered_cars")
 async def registered_cars():
     a = Car()
-    registered_cars = "Registered cars: " + ", ".join(a.registered_cars)
+    if a.registered_cars:
+        registered_cars = "Registered cars: " + ", ".join(a.registered_cars)
+    else:    
+        registered_cars = "No registered cars at this moment"   
     return {"info": registered_cars}
 
 
