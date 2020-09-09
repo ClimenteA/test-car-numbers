@@ -16,6 +16,7 @@ With pipenv
 - `git clone https://github.com/ClimenteA/test-car-numbers.git`
 - `cd test-car-numbers/app`
 - `pipenv shell`
+- `pipenv install`
 - `uvicorn main:app`
 
 or with Docker
