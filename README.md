@@ -1,6 +1,6 @@
 # test-car-numbers
 
-## SUMMARY
+#### SUMMARY
 
 - This app allows you to create a registration number for a specific car.
 - The registration number looks like this: 'AAA-002' - three capital letters a dash and three numbers.
@@ -9,7 +9,7 @@
 - More details in app/tasks.md
 
 
-## HOW TO RUN THE APP
+#### HOW TO RUN THE APP
 
 With pipenv
 
@@ -43,7 +43,7 @@ Make sure to replace 1a1ee9dc4076 with your id from previous command.
 Now go to your browser at address: 
 - `http://127.0.0.1/docs`
 
-## API
+#### API
 
 - GET `/registered_cars` - see all registered cars
 - POST `/add_car` - add a car number
