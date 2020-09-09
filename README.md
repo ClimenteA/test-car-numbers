@@ -25,7 +25,7 @@ After you clonned this repository
 - `cd test-car-numbers`
 - `docker build -t fastapi .`
 
-Docker will create the image
+Docker will create the container
 ```
 .
 .
